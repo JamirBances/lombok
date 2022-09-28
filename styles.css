@@ -126,7 +126,7 @@ header nav a {
 /* Seccion de articulos */
 main {
   background-color: var(--background-color);
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 main div:first-child {
@@ -175,6 +175,7 @@ article {
 
 .about-section {
   display: flex;
+  background-color: white;
 }
 
 .about-section > div {
@@ -209,21 +210,14 @@ article {
 
 .secundary-color{
   color: var(--secondary-color);
+  margin: 0;
   text-decoration: none;
 }
 
-section > h2{
-  margin: 0;
-}
-
-section p{
-  margin: 0;
-}
-
-section a{
-  text-decoration: none;
-  color: var(--secondary-color);
-  
+section input{
+  width: 35%;
+  height: 60px;
+  padding: 20px;
 }
 
 .submit{
@@ -255,12 +249,9 @@ section a{
 
 }
 
-div a h5{
-  text-decoration: none;
-}
+
 .textfooter{
   background-color: var(--background-color);
-  color: var(--secondary-color);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -268,6 +259,11 @@ div a h5{
   gap: 70px;
   padding-right: 70px;
   letter-spacing: 2px;
+}
+
+div a{
+  text-decoration: none;
+  color: var(--secondary-color);
   text-transform: uppercase;
 }
 
